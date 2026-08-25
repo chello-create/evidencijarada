@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Evidencija rada">
+  <rect width="192" height="192" rx="32" fill="#172554"/>
+  <rect x="42" y="34" width="108" height="124" rx="12" fill="#ffffff"/>
+  <path d="M60 70h72M60 96h72M60 122h42" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+  <path d="M66 24v24M126 24v24" stroke="#16a34a" stroke-width="12" stroke-linecap="round"/>
+</svg>

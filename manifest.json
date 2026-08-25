@@ -1,0 +1,19 @@
+{
+  "name": "Evidencija rada",
+  "short_name": "Evidencija rada",
+  "description": "Evidencija radnih smjena i obračuna plate",
+  "lang": "bs",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#172554",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

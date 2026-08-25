@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Pokreni lokalni server Evidencije rada",
+            "type": "process",
+            "command": "node",
+            "args": ["${workspaceFolder}/server.js"],
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "evidencija-rada",
+                "pattern": {
+                    "regexp": ".*"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": "Evidencija rada: http://localhost:8080"
+                }
+            },
+            "presentation": {
+                "reveal": "silent",
+                "panel": "dedicated",
+                "close": false
+            }
+        }
+    ]
+}
